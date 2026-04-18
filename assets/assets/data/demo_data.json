@@ -1,0 +1,193 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "admin",
+            "password": "a44hebat",
+            "nama": "M.Sholeh",
+            "role": "admin",
+            "is_active": true
+        },
+          {
+            "id": 101,
+            "username": "101",
+            "password": "1234",
+            "nama": "Zainuddin S.Ag",
+            "role": "pjgt",
+            "is_active": true
+        },
+        {
+            "id": 102,
+            "username": "102",
+            "password": "1234",
+            "nama": "Sholeh S.Ag",
+            "role": "pjgt",
+            "is_active": true
+        },
+        {
+            "id": 201,
+            "username": "201",
+            "nama": "MOH. IRFAN HAKIM",
+            "password": "1234",
+            "role": "gt",
+            "is_active": true
+        }
+    ],
+    "daftar_tempat_tugas": [
+    {
+      "nama_lembaga": "Madrasah Miftahul Ulum Pasuruan",
+      "alamat": "Warungdowo Pohjentrek Pasuruan",
+      "kepala_lembaga": "Ust. Ali Wafa"
+    },
+    {
+      "nama_lembaga": "Madrasah Miftahul Ulum Pamekasan",
+      "alamat": "Jambiringin Proppo Pamekasan",
+      "kepala_lembaga": "Ust. Fahmi Aziz"
+    }
+  ],
+    "profile_pjgt": [
+        {
+            "id": 1081,
+            "user_id": 101,
+            "id_pjgt_resmi": "PJGT-2026-001",
+            "nama_pjgt": "Sholeh S.Ag",
+            "nama_madrasah": "Madrasah Miftahul Ulum",
+            "nama_pondok": "Pondok Pesantren Warungdowo",
+            "kepala_madrasah": "Ust. Ali wafa Aziz",
+            "hp_kepala": "081234567890",
+            "hp_pjgt": "085712345678",
+            "alamat_lengkap": "Warungdowo Pohjentrek Pasuruan Jatim",
+            "status_aktif": 1
+        },
+        {
+            "id": 1082,
+            "user_id": 102,
+            "id_pjgt_resmi": "PJGT-2026-002",
+            "nama_pjgt": "Zainuddin S.Ag",
+            "nama_madrasah": "Madrasah Miftahul Ulum",
+            "nama_pondok": "Pondok Pesantren Sidogiri",
+            "kepala_madrasah": "Ust. Fahmi Aziz",
+            "hp_kepala": "081234567890",
+            "hp_pjgt": "085712345678",
+            "alamat_lengkap": "Jambiringin Ampere Proppo Pamekasan Jatim",
+            "status_aktif": 1
+        }
+    ],
+    "daftar_guru_tugas": [
+        {
+            "id": 1,
+            "id_gt": "14361153",
+            "nama_gt": "MOH. IRFAN HAKIM",
+            "id_pjgt": "1081",
+            "nama_pjgt": "Sholeh S.Ag",
+            "alamat_tugas": "Madrasah Miftahul Ulum Pasuruan",
+            "kelas": "3-H TSANAWIYAH",
+            "status_tugas": "WAJIB TSANAWIYAH"
+        },
+        {
+            "id": 2,
+            "id_gt": "14361154",
+            "nama_gt": "AHMAD ZAKI",
+            "id_pjgt": "1082",
+            "nama_pjgt": "Zainuddin S.Ag",
+            "alamat_tugas": "Madrasah Miftahul Ulum Pamekasan",
+            "kelas": "2-A ALIYAH",
+            "status_tugas": "TUGAS KHUSUS"
+        }
+    ],
+    "detail_guru_tugas": [
+        {
+            "user_id": 201,
+            "nim": "14361153",
+            "id_gt": "GT-1153",
+            "nik": "3501234567890001",
+            "id_mmu": "MMU-A44",
+            "no_kk": "3501234567890002",
+            "tanggal_masuk": "2024-07-15",
+            "tanggal_hijri": "10 Muharram 1446",
+            "kelas": "3-H TSANAWIYAH",
+            "nama_lengkap": "MOH. IRFAN HAKIM",
+            "panggilan": "Irfan",
+            "jenis_kelamin": "Laki-laki",
+            "tempat_lahir": "Malang",
+            "tanggal_lahir": "2000-05-20",
+            "anakke": "1",
+            "jmlsaudara": "3",
+            "nama_ayah": "Abdullah",
+            "tgllahirayah": "1975-01-01",
+            "nama_ibu": "Siti Aminah",
+            "tgllahiribu": "1980-02-02",
+            "nama_wali": "Abdullah",
+            "almayah": "Putat Lor Gondanglegi Malang",
+            "almibu": "Putat Lor Gondanglegi Malang",
+            "alamat": "Putat Lor Gondanglegi Malang Jatim",
+            "desa": "Putat Lor",
+            "kecamatan": "Gondanglegi",
+            "wilayah": "Malang",
+            "telepon": "081299887766",
+            "teleponibu": "081255443322",
+            "status_tugas": "1"
+        }
+    ],
+    "riwayat_laporan_guru_tugas": [
+        {
+            "id": 1,
+            "user_id": 201,
+            "bulan_hijriah": "Ramadhan",
+            "tahun_hijriah": "1447",
+            "tidak_ada_kelas": false,
+            "menangani_administrasi": true,
+            "wali_kelas": {
+                "nama_kelas": "3-H",
+                "jumlah_murid": 40
+            },
+            "fak_kelas": {
+                "mata_pelajaran": "Fiqih",
+                "kitab": "Fathul Qorib"
+            },
+            "administrasi": {
+                "Absensi": true,
+                "Raport": true,
+                "Tabungan": false,
+                "Lainnya": false
+            },
+            "jenis_kelamin_murid": "Banin",
+            "sakit_hari": "0",
+            "izin_hari": "2",
+            "pulang_hari": "0",
+            "hub_pjgt": "Baik",
+            "alasan_pjgt": "Komunikasi lancar mengenai kurikulum",
+            "hub_kepala": "Baik",
+            "alasan_kepala": "Sering berdiskusi di kantor",
+            "hub_guru": "Sangat Baik",
+            "alasan_guru": "Saling membantu dalam mengajar",
+            "bisyaroh": "Lancar",
+            "masalah_penyelesaian": "Kurangnya papan tulis, sudah lapor ke PJGT",
+            "tugas_mendatang": "Persiapan ujian akhir",
+            "tugas_belum_selesai": "Input nilai bulanan",
+            "usulan_lain_lain": "Mohon pengadaan spidol lebih banyak",
+            "tanggal_laporan": "2026-04-10",
+            "created_at": "2026-04-10T20:00:00"
+        }
+    ],
+    "riwayat_laporan_pjgt": [
+        {
+            "id": 501,
+            "user_id": "101",
+            "id_pjgt": "1081",
+            "id_gt": "14361153",
+            "nama_gt": "MOH. IRFAN HAKIM",
+            "laporan_bulan_ke": 1,
+            "status_kelas": "Ada",
+            "disiplin_di_madrasah": "Disiplin",
+            "imam_sholat_rowatib": "Setiap Waktu",
+            "rotibul_haddad": "Pagi - Melanjutkan",
+            "sholat_dhuha": "Pagi - Melanjutkan",
+            "pembacaan_kitab": "Malam - Melanjutkan",
+            "rambut_gt": "Rapi",
+            "surat_izin_digunakan": "2 Lembar",
+            "hub_dengan_pjgt": "Sangat Baik",
+            "created_at": "2026-04-18T09:18:07"
+        }
+    ]
+}
