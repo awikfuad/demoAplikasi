@@ -65,7 +65,7 @@
             "id_pjgt_resmi": "PJGT-2026-002",
             "nama_pjgt": "Zainuddin S.Ag",
             "nama_madrasah": "Madrasah Miftahul Ulum",
-            "nama_pondok": "Pondok Pesantren Sidogiri",
+            "nama_pondok": "Pondok Pesantren Al Islamiyah",
             "kepala_madrasah": "Ust. Fahmi Aziz",
             "hp_kepala": "081234567890",
             "hp_pjgt": "085712345678",
@@ -79,7 +79,7 @@
             "id_gt": "14361153",
             "nama_gt": "MOH. IRFAN HAKIM",
             "id_pjgt": "1081",
-            "nama_pjgt": "Sholeh S.Ag",
+            "nama_pjgt": "M. Sholeh S.Ag",
             "alamat_tugas": "Madrasah Miftahul Ulum Pasuruan",
             "kelas": "3-H TSANAWIYAH",
             "status_tugas": "WAJIB TSANAWIYAH"
@@ -87,12 +87,12 @@
         {
             "id": 2,
             "id_gt": "14361154",
-            "nama_gt": "AHMAD ZAKI",
+            "nama_gt": "AHMAD MASYHUDI",
             "id_pjgt": "1082",
-            "nama_pjgt": "Zainuddin S.Ag",
+            "nama_pjgt": "KH. ABDUR ROHMAN",
             "alamat_tugas": "Madrasah Miftahul Ulum Pamekasan",
             "kelas": "2-A ALIYAH",
-            "status_tugas": "TUGAS KHUSUS"
+            "status_tugas": "WAJIB TSANAWIYAH"
         }
     ],
     "detail_guru_tugas": [
